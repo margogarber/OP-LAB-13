@@ -23,7 +23,7 @@ public class Actor implements Comparable<Actor> {
         }
         if (!films.contains(film)) {
             films.add(film);
-            film.addActor(this); // Bi-directional link
+            film.addActor(this);
         }
     }
 
